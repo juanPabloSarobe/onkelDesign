@@ -14,11 +14,19 @@ window.onscroll = function() {
       document.querySelector('#customNavbar').classList.add('navbar-dark', 'bg-dark', 'fixed-theme');
       document.querySelector('#logoNavbar').classList.remove('logoDark');
       document.querySelector('#logoNavbar').classList.add('logoLigth');
+      document.querySelector('#logoFace').classList.remove('colorDark');
+      document.querySelector('#logoFace').classList.add('colorLigth');
+      document.querySelector('#logoInsta').classList.remove('colorDark');
+      document.querySelector('#logoInsta').classList.add('colorLigth');
     } else if(y == currentY) {
         document.querySelector('#customNavbar').classList.remove('navbar-dark', 'bg-dark', 'fixed-theme');
       document.querySelector('#customNavbar').classList.add('navbar-light', 'bg-opacity-10', 'fixed-theme'); 
       document.querySelector('#logoNavbar').classList.remove('logoLigth');
       document.querySelector('#logoNavbar').classList.add('logoDark');
+      document.querySelector('#logoFace').classList.remove('colorLigth');
+      document.querySelector('#logoFace').classList.add('colorDark');
+      document.querySelector('#logoInsta').classList.remove('colorLigth');
+      document.querySelector('#logoInsta').classList.add('colorDark');
     }
   }
   

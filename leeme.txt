@@ -1,0 +1,14 @@
+
+1) instalar SASS
+
+npm install -g node-sass nodemon
+
+2) agregar estos comandos en el package.json dentro de scryps luego de test;
+
+    "build-css": "node-sass --include-path scss scss/styles.scss css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+
+3) para ejecutar sass
+
+npm run watch-css
