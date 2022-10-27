@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+  * body {
+    min-height: 100vh;
+    background-color: #f1f1f1; }
+
+.fixed-top {
+  position: fixed;
+  top: 0; }
+
+.fixed-theme {
+  transition: 0.8s; }
+
+.wrapper {
+  background: url("./img/room-interior-design.webp") no-repeat center;
+  background-size: cover;
+  min-height: 100vh; }
+  .wrapper .recuadroCentral {
+    background-color: red;
+    width: 70%;
+    max-width: 1280px;
+    height: 270px; }

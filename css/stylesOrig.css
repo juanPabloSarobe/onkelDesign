@@ -15,17 +15,8 @@ body {
     background-size: cover;
     min-height: 100vh;
     
-
   }
   
-  .fixed-top {
-    position: fixed;
-    top: 0;
-  }
-  
-  .fixed-theme {
-    transition: 0.8s;
-  }
 
 .recuadroCentral{
   background-color: red;
