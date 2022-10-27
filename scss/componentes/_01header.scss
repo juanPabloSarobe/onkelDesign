@@ -8,3 +8,24 @@
   .fixed-theme {
     transition: 0.8s;
   }
+
+  .logoDark{
+    background: url("../img/logoOnkelDarkXXS.webp");
+   
+    width: 172px;
+    height: 65px;
+   }
+
+   .logoLigth{
+    background: url("../img/logoOnkelLigthXXS.webp");
+   
+    width: 172px;
+    height: 65px;
+   }
+
+   .colorDark{
+    color: $darkColor
+   }
+   .colorLigth{
+    color: $ligthColor;
+   }
