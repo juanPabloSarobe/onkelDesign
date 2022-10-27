@@ -2,6 +2,14 @@
     font-family: "biennale"; 
     src: url("../fonts/Biennale/BiennaleRegular.otf"); 
 } 
+@font-face { 
+    font-family: "biennaleHeavy"; 
+    src: url("../fonts/Biennale/BiennaleHeavy.otf"); 
+}
+@font-face { 
+    font-family: "biennaleBold"; 
+    src: url("../fonts/Biennale/BiennaleBold.otf"); 
+}
 
 
 
@@ -15,7 +23,7 @@
     body {
         min-height: 100vh;
         background-color: #f1f1f1;
-        
+        font-family: "biennale", sans-serif;
       a{
         text-decoration: none;
     }  

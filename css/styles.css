@@ -2,6 +2,14 @@
   font-family: "biennale";
   src: url("../fonts/Biennale/BiennaleRegular.otf"); }
 
+@font-face {
+  font-family: "biennaleHeavy";
+  src: url("../fonts/Biennale/BiennaleHeavy.otf"); }
+
+@font-face {
+  font-family: "biennaleBold";
+  src: url("../fonts/Biennale/BiennaleBold.otf"); }
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +17,8 @@
   text-decoration: none; }
   * body {
     min-height: 100vh;
-    background-color: #f1f1f1; }
+    background-color: #f1f1f1;
+    font-family: "biennale", sans-serif; }
     * body a {
       text-decoration: none; }
 
@@ -44,4 +53,25 @@
     background-color: transparent;
     width: 70%;
     max-width: 1280px;
-    height: 270px; }
+    height: 270px;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; }
+    .wrapper .recuadroCentral .preTitulo {
+      font-family: "biennale";
+      text-transform: uppercase;
+      text-shadow: 1px 1px 2px #fcfbfb, 0 0 1em #ffffff, 0 0 0.2em #ffffff; }
+    .wrapper .recuadroCentral .titulo {
+      font-family: "biennaleBold";
+      text-shadow: 1px 1px 2px #fcfbfb, 0 0 1em #ffffff, 0 0 0.2em #ffffff; }
+      .wrapper .recuadroCentral .titulo #letraE {
+        display: inline-block;
+        -moz-transform: rotate(-12deg);
+        -webkit-transform: rotate(-12deg);
+        transform: rotate(-12deg) translateX(-2px);
+        color: #f02411; }
+    .wrapper .recuadroCentral .subTitulo {
+      font-family: "biennale";
+      text-shadow: 1px 1px 2px #fcfbfb, 0 0 1em #ffffff, 0 0 0.2em #ffffff; }

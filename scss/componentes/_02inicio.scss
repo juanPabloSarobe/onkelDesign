@@ -2,14 +2,53 @@
     background: url("../img/room-interior-design.webp") no-repeat center;
     background-size: cover;
     min-height: 100vh;
-    
 
-    .recuadroCentral{
+
+    .recuadroCentral {
         background-color: transparent;
         width: 70%;
         max-width: 1280px;
         height: 270px;
-      }
+        color: $darkColor;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
 
-  }
- 
+        .preTitulo{
+            font-family: "biennale";
+            text-transform: uppercase;
+            text-shadow: $sombraBlanca;
+        }
+
+        .titulo {
+            font-family: "biennaleBold";
+            text-shadow: $sombraBlanca;
+            
+         
+
+            #letraE {
+                display: inline-block;
+                -moz-transform:rotate(-12deg) ;
+                -webkit-transform: rotate(-12deg);
+                transform: rotate(-12deg) translateX(-2px);
+                color: $secondarycolor;
+                
+            }
+
+           
+
+        }
+
+        .subTitulo{
+            font-family: "biennale";
+            text-shadow: $sombraBlanca;
+        }
+
+
+    }
+
+}
+
+
+
