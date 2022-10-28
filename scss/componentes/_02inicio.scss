@@ -47,6 +47,43 @@
             text-shadow: $sombraBlanca;
         }
 
+        .botonTransp{
+            transition: 0.3s ease-in;
+            font-family: "biennaleBold" ;
+            border: 2px solid $bgColorDark;
+            border-radius: 0px;
+            color: $bgColorDark;
+            text-shadow: $sombraBlanca;
+
+
+            &:hover{
+            font-family: "biennale";
+            transition: 0.3s ease-in;
+            border-radius: 0px;
+            color: $bgColorLigth;
+            text-shadow: none;
+            background-color: $bgColorDark;
+            }
+        }
+
+        .botonRojo{
+            transition: 0.3s ease-in;
+            font-family: "biennale" ;
+            border: 2px solid $secondaryColorAlt;
+            border-radius: 0px;
+            color: $ligthColor;
+            background-color: $secondaryColorAlt;
+
+            &:hover{
+                transition: 0.3s ease-in;
+                border-radius: 0px;
+                color: $secondaryColorAlt;
+                text-shadow: none;
+                background-color: $bgColorDark;
+                }
+
+        }
+
 
     }
 
