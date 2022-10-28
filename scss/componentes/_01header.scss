@@ -22,6 +22,12 @@
     width: 172px;
     height: 65px;
    }
+   .redesHeader{
+    width: 172px;
+    @media only screen and (max-width: 992px) {
+     width: auto;
+   }
+  }
 
    .colorDark{
     color: $darkColor

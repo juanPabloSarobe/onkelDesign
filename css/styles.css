@@ -39,6 +39,12 @@
   width: 172px;
   height: 65px; }
 
+.redesHeader {
+  width: 172px; }
+  @media only screen and (max-width: 992px) {
+    .redesHeader {
+      width: auto; } }
+
 .colorDark {
   color: #333333; }
 
@@ -53,12 +59,13 @@
     background-color: transparent;
     width: 70%;
     max-width: 1280px;
-    height: 270px;
+    /* height: 270px; */
     color: #333333;
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center; }
+    text-align: center;
+    overflow: hidden; }
     .wrapper .recuadroCentral .preTitulo {
       font-family: "biennale";
       text-transform: uppercase;

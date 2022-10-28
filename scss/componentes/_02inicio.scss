@@ -8,12 +8,14 @@
         background-color: transparent;
         width: 70%;
         max-width: 1280px;
-        height: 270px;
+        /* height: 270px; */
         color: $darkColor;
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
+        overflow: hidden;
+       
 
         .preTitulo{
             font-family: "biennale";
