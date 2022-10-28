@@ -15,79 +15,75 @@
         align-items: center;
         text-align: center;
         overflow: hidden;
-       
 
-        .preTitulo{
+
+        .preTitulo {
             font-family: "biennale";
             text-transform: uppercase;
             text-shadow: $sombraBlanca;
+
+            @media only screen and (max-height: 480px) {
+                display: none;
+
+            }
         }
 
         .titulo {
             font-family: "biennaleBold";
             text-shadow: $sombraBlanca;
-            
-         
-
-            #letraE {
-                display: inline-block;
-                -moz-transform:rotate(-12deg) ;
-                -webkit-transform: rotate(-12deg);
-                transform: rotate(-12deg) translateX(-2px);
-                color: $secondarycolor;
-                
-            }
-
-           
 
         }
 
-        .subTitulo{
+        .subTitulo {
             font-family: "biennale";
             text-shadow: $sombraBlanca;
         }
 
-        .botonTransp{
+        .botonTransp {
             transition: 0.3s ease-in;
-            font-family: "biennaleBold" ;
+            font-family: "biennaleBold";
             border: 2px solid $bgColorDark;
             border-radius: 0px;
             color: $bgColorDark;
             text-shadow: $sombraBlanca;
 
 
-            &:hover{
-            font-family: "biennale";
-            transition: 0.3s ease-in;
-            border-radius: 0px;
-            color: $bgColorLigth;
-            text-shadow: none;
-            background-color: $bgColorDark;
+            &:hover {
+                font-family: "biennale";
+                transition: 0.3s ease-in;
+                border-radius: 0px;
+                color: $bgColorLigth;
+                text-shadow: none;
+                background-color: $bgColorDark;
             }
         }
 
-        .botonRojo{
+        .botonRojo {
             transition: 0.3s ease-in;
-            font-family: "biennale" ;
+            font-family: "biennale";
             border: 2px solid $secondaryColorAlt;
             border-radius: 0px;
             color: $ligthColor;
             background-color: $secondaryColorAlt;
 
-            &:hover{
+            &:hover {
                 transition: 0.3s ease-in;
                 border-radius: 0px;
                 color: $secondaryColorAlt;
                 text-shadow: none;
                 background-color: $bgColorDark;
-                }
+            }
 
         }
 
 
+
     }
 
+    .mouseIcon {
+        @media only screen and (max-height: 480px) {
+            display: none;
+
+        }
+    }
 }
-
-
-

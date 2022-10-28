@@ -22,6 +22,13 @@
     * body a {
       text-decoration: none; }
 
+.letraE {
+  display: inline-block;
+  -moz-transform: rotate(-12deg);
+  -webkit-transform: rotate(-12deg);
+  transform: rotate(-12deg) translateX(-2px);
+  color: #f02411; }
+
 .fixed-top {
   position: fixed;
   top: 0; }
@@ -70,15 +77,12 @@
       font-family: "biennale";
       text-transform: uppercase;
       text-shadow: 1px 1px 2px #fcfbfb, 0 0 1em #ffffff, 0 0 0.2em #ffffff; }
+      @media only screen and (max-height: 480px) {
+        .wrapper .recuadroCentral .preTitulo {
+          display: none; } }
     .wrapper .recuadroCentral .titulo {
       font-family: "biennaleBold";
       text-shadow: 1px 1px 2px #fcfbfb, 0 0 1em #ffffff, 0 0 0.2em #ffffff; }
-      .wrapper .recuadroCentral .titulo #letraE {
-        display: inline-block;
-        -moz-transform: rotate(-12deg);
-        -webkit-transform: rotate(-12deg);
-        transform: rotate(-12deg) translateX(-2px);
-        color: #f02411; }
     .wrapper .recuadroCentral .subTitulo {
       font-family: "biennale";
       text-shadow: 1px 1px 2px #fcfbfb, 0 0 1em #ffffff, 0 0 0.2em #ffffff; }
@@ -109,3 +113,23 @@
         color: #cc2a49;
         text-shadow: none;
         background-color: #333333; }
+  @media only screen and (max-height: 480px) {
+    .wrapper .mouseIcon {
+      display: none; } }
+
+.linea {
+  width: 60px; }
+
+.frasePresentacion {
+  color: #888888; }
+
+.seccionGeneral {
+  height: 400px; }
+  .seccionGeneral .seccionAmoblamientos {
+    height: 400px;
+    background: url("../img/amoblamientos.jpg");
+    background-size: cover; }
+  .seccionGeneral .seccionSteel {
+    height: 400px;
+    background: url("../img/steelAndWood.jpg");
+    background-size: cover; }

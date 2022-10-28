@@ -1,0 +1,23 @@
+.linea{
+    width: 60px;
+}
+
+.frasePresentacion{
+    color: $fontColorAlt;
+}
+
+.seccionGeneral{
+    height: 400px;
+
+    .seccionAmoblamientos{
+        height: 400px;
+        background: url('../img/amoblamientos.jpg');
+        background-size: cover;
+    }
+
+    .seccionSteel{
+        height: 400px;
+        background: url('../img/steelAndWood.jpg');
+        background-size: cover;
+    }
+}
