@@ -18,6 +18,7 @@ window.onscroll = function() {
       document.querySelector('#logoFace').classList.add('colorLigth');
       document.querySelector('#logoInsta').classList.remove('colorDark');
       document.querySelector('#logoInsta').classList.add('colorLigth');
+      
     } else if(y == currentY) {
         document.querySelector('#customNavbar').classList.remove('navbar-dark', 'bg-dark', 'fixed-theme');
       document.querySelector('#customNavbar').classList.add('navbar-light', 'bg-opacity-10', 'fixed-theme'); 

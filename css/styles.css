@@ -125,11 +125,72 @@
 
 .seccionGeneral {
   height: 400px; }
-  .seccionGeneral .seccionAmoblamientos {
+  @media only screen and (max-width: 992px) {
+    .seccionGeneral {
+      height: 750px; } }
+  .seccionGeneral .flechaInv {
+    color: transparent; }
+  .seccionGeneral .flechaColor {
+    color: #f02411; }
+  .seccionGeneral .seccionGeneral1 .seccionAmoblamientos {
     height: 400px;
     background: url("../img/amoblamientos.jpg");
-    background-size: cover; }
-  .seccionGeneral .seccionSteel {
+    background-size: cover;
+    transition: all 0.8s ease-in-out; }
+  .seccionGeneral .seccionGeneral1 .textoAmoblamientos {
+    position: absolute;
+    top: 0px;
+    text-align: justify;
+    transition: all 0.6s ease-in;
+    font-family: "biennaleBold";
+    color: transparent;
+    transform: rotate(5deg); }
+  .seccionGeneral .seccionGeneral1 .seccionAmoblamientosCover {
+    position: absolute;
+    top: 0px;
+    transform: translateY(0%);
+    transition: all 0.4s ease-in; }
+  .seccionGeneral .seccionGeneral1:hover .seccionAmoblamientosCover {
+    border: solid 3px RED;
+    transform: translateY(100%);
+    transition: all 0.4s ease-out; }
+  .seccionGeneral .seccionGeneral1:hover .seccionAmoblamientos {
+    transform: scale(1.2) rotate(3deg);
+    transition: all 0.8s ease-in-out; }
+  .seccionGeneral .seccionGeneral1:hover .textoAmoblamientos {
+    transition: all 0.6s ease-in;
+    transform: rotate(0deg);
+    color: black;
+    text-shadow: 1px 1px 2px #fcfbfb, 0 0 1em #ffffff, 0 0 0.2em #ffffff; }
+  .seccionGeneral .seccionGeneral2 .seccionSteel {
     height: 400px;
     background: url("../img/steelAndWood.jpg");
-    background-size: cover; }
+    background-size: cover;
+    transition: all 0.8s ease-in-out; }
+  .seccionGeneral .seccionGeneral2 .textoSteel {
+    position: absolute;
+    top: 0px;
+    text-align: justify;
+    /*  visibility: hidden; */
+    transition: all 0.6s ease-in;
+    font-family: "biennaleBold";
+    color: transparent;
+    transform: rotate(5deg); }
+  .seccionGeneral .seccionGeneral2 .seccionSteelCover {
+    position: absolute;
+    top: 0px;
+    transform: translateY(0%);
+    transition: all 0.4s ease-in; }
+  .seccionGeneral .seccionGeneral2:hover .seccionSteelCover {
+    border: solid 3px RED;
+    transform: translateY(100%);
+    transition: all 0.4s ease-out; }
+  .seccionGeneral .seccionGeneral2:hover .seccionSteel {
+    transform: scale(1.2) rotate(3deg);
+    transition: all 0.8s ease-in-out; }
+  .seccionGeneral .seccionGeneral2:hover .textoSteel {
+    /* visibility: visible; */
+    transition: all 0.6s ease-in;
+    transform: rotate(0deg);
+    color: black;
+    text-shadow: 1px 1px 2px #fcfbfb, 0 0 1em #ffffff, 0 0 0.2em #ffffff; }
