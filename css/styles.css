@@ -136,6 +136,7 @@
     height: 400px;
     background: url("../img/amoblamientos.jpg");
     background-size: cover;
+    background-position: center;
     transition: all 0.8s ease-in-out; }
   .seccionGeneral .seccionGeneral1 .textoAmoblamientos {
     position: absolute;
@@ -164,6 +165,7 @@
     text-shadow: 1px 1px 2px #fcfbfb, 0 0 1em #ffffff, 0 0 0.2em #ffffff; }
   .seccionGeneral .seccionGeneral2 .seccionSteel {
     height: 400px;
+    background-position: center;
     background: url("../img/steelAndWood.jpg");
     background-size: cover;
     transition: all 0.8s ease-in-out; }
