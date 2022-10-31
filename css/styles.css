@@ -35,6 +35,18 @@
 .tamanioSeccionBg1 {
   min-height: 50vh; }
 
+.tituloRojo {
+  color: #f02411; }
+
+.sombraBlanca {
+  text-shadow: 1px 1px 2px #fcfbfb, 0 0 1em #ffffff, 0 0 0.2em #ffffff; }
+
+.sombraNegra {
+  text-shadow: 1px 1px 2px #050505, 0 0 1em #050505, 0 0 0.2em #050505; }
+
+.centrarTexto {
+  text-align: center; }
+
 .fixed-top {
   position: fixed;
   top: 0; }
@@ -193,7 +205,6 @@
     transform: translateY(0%);
     transition: all 0.4s ease-in; }
   .seccionGeneral .seccionGeneral2:hover .seccionSteelCover {
-    border: solid 3px RED;
     transform: translateY(100%);
     transition: all 0.4s ease-out; }
   .seccionGeneral .seccionGeneral2:hover .seccionSteel {
