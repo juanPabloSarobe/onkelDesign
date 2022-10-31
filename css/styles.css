@@ -211,9 +211,12 @@
   height: 250px;
   margin: 50px auto; }
   .separadorBg1 .separadorBg1Img {
-    background: url("../img/interior-shot-of-modern-house-kitchen.jpg") no-repeat center;
+    background: url("../img/interior-house-kitchen.webp") no-repeat center;
     background-size: cover;
     background-position: bottom; }
   .separadorBg1 .separadorBg1Fondo .textoSeparadorBg1 {
     text-align: center;
     font-family: "biennaleBold"; }
+
+.seccionNuestroTrabajo {
+  height: 80vh; }
