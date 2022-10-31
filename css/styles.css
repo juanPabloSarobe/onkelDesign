@@ -29,6 +29,12 @@
   transform: rotate(-12deg) translateX(-2px);
   color: #f02411; }
 
+.tamanioSeccion {
+  min-height: 100vh; }
+
+.tamanioSeccionBg1 {
+  min-height: 50vh; }
+
 .fixed-top {
   position: fixed;
   top: 0; }
@@ -117,6 +123,9 @@
     .wrapper .mouseIcon {
       display: none; } }
 
+.letraEAjuste {
+  transform: rotate(-12deg) translateX(-1px); }
+
 .linea {
   width: 60px; }
 
@@ -196,3 +205,15 @@
     transform: rotate(0deg);
     color: black;
     text-shadow: 1px 1px 2px #fcfbfb, 0 0 1em #ffffff, 0 0 0.2em #ffffff; }
+
+.separadorBg1 {
+  width: 100%;
+  height: 250px;
+  margin: 50px auto; }
+  .separadorBg1 .separadorBg1Img {
+    background: url("../img/interior-shot-of-modern-house-kitchen.jpg") no-repeat center;
+    background-size: cover;
+    background-position: bottom; }
+  .separadorBg1 .separadorBg1Fondo .textoSeparadorBg1 {
+    text-align: center;
+    font-family: "biennaleBold"; }
