@@ -1,0 +1,34 @@
+
+
+
+
+.imagenFondo{
+    size-adjust: inherit;
+}
+
+
+.imagenCentral{
+    height: 600px;
+    /* background: url('../img/capturaPantallaApp.png'); */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.imgFondo{
+    height: 600px;
+    width: 280px;
+    background: url('../img/fondoCelular.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imgfrente{
+    height: 459px;
+    width: 234px;
+    background-color: white;
+    transform: translate(-48.7%,-52%);
+}

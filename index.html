@@ -196,28 +196,29 @@
 
 
       </div>
-    </section>
 
-    <section id="separadorBg1" class="tamanioSeccionBg1 separadorBg1 position-relative bg-light" data-aos="fade-up"
-      data-aos-duration="1500">
-      <div class="separadorBg1Img w-100 h-100">
+      <section id="separadorBg2" class="tamanioSeccionBg2 separadorBg2 position-relative paralaxBg overflow-hidden">
+        <div class=" h-100">
+          <img class="paralaxImg1 w-100 position-absolute top-0 d-none d-md-block" src="./img/3d-kitchenOrig.webp"
+            alt="image">
+          <img class="paralaxImg1 h-100 position-absolute top-0 d-block d-md-none" src="./img/3d-kitchenOrig.webp"
+            alt="image">
+        </div>
+  
+        <div
+          class="separadorBg2Fondo w-100 h-100 bg-light bg-opacity-10 position-absolute top-0 d-flex flex-column justify-content-center align-items-center">
+          <h2 class="m-2 fs-1 centrarTexto tituloRojo sombraBlanca textoBold"> Diseño en contanstante evolución.</h2>
+          <p class="m-2 fs-3 align-text-center textoSeparadorBg2 text-light sombraNegra">Utilizando tecnologia de última
+            generación, buscamos que nuestros clientes tengan una experiencia inigualable, desde la idea, hasta el
+            servicio post-venta.</p>
+  
+  
+        </div>
+  
+      </section>
 
-      </div>
 
-      <div
-        class="separadorBg1Fondo w-100 h-100 bg-light bg-opacity-75 position-absolute top-0 d-flex justify-content-center align-items-center">
-        <p class="m-2 fs-3 align-text-center textoSeparadorBg1 container"> Frase muy expresiva de los que se considera
-          mas importante para el cliente, es para usarla como separador. Lorem ipsum dolor sit amet consectetur
-          adipisicing elit.</p>
-
-      </div>
-
-
-
-    </section>
-
-
-    <!-- Seccion nuestro trabajo -->
+       <!-- Seccion nuestro trabajo -->
     <section class="bg-light pb-5">
       <div class="container p-3 bg-light" data-aos="fade-up" data-aos-duration="1500">
 
@@ -302,23 +303,67 @@
       </div>
     </section>
 
-    <section id="separadorBg2" class="tamanioSeccionBg2 separadorBg2 position-relative paralaxBg overflow-hidden">
-      <div class=" h-100">
-        <img class="paralaxImg1 w-100 position-absolute top-0 d-none d-md-block" src="./img/3d-kitchen.PNG" alt="image">
-        <img class="paralaxImg1 h-100 position-absolute top-0 d-block d-md-none" src="./img/3d-kitchenOrig.webp" alt="image">
+  </section>
+
+  <section id="separadorBg1" class="tamanioSeccionBg1 separadorBg1 position-relative bg-light" data-aos="fade-up"
+    data-aos-duration="1500">
+    <div class="separadorBg1Img w-100 h-100">
+
+    </div>
+
+    <div
+      class="separadorBg1Fondo w-100 h-100 bg-light bg-opacity-75 position-absolute top-0 d-flex justify-content-center align-items-center">
+      <p class="m-2 fs-3 align-text-center textoSeparadorBg1 container"> Frase muy expresiva de los que se considera
+        mas importante para el cliente, es para usarla como separador. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit.</p>
+
+    </div>
+
+
+
+  </section>
+   
+
+
+    <section class="bgGris mt-5">
+
+      <div class="container text-center">
+        <div class="row row-cols-md-3 row-cols-1">
+          <div class="col-md-3 col-12 d-flex flex-column justify-content-around">
+
+            <div>Row1</div>
+            <div>Row2</div>
+            <div>Row3</div>
+          </div>
+
+          <div class="col-md-6 col-12 d-flex flex-column  justify-content-center imagenCentral position-relative">
+
+            <div class="imgFondo position-absolute top-50 start-50 translate-middle ">
+
+              <div id="imgFrente" class="imgfrente position-absolute top-50 start-50 overflow-hidden">
+                <img class="paralaxImg2  h-100 position-absolute top-0 start-0 d-block  " src="./img/sketchupV3.PNG"
+                  alt="image">
+               
+              </div>
+
+
+            </div>
+
+
+
+          </div>
+          <div class="col-md-3 col-12 d-flex flex-column  justify-content-around">
+            <div>Row1</div>
+            <div>Row2</div>
+            <div>Row3</div>
+          </div>
+
+        </div>
       </div>
 
-      <div
-        class="separadorBg2Fondo w-100 h-100 bg-light bg-opacity-10 position-absolute top-0 d-flex flex-column justify-content-center align-items-center">
-        <h2 class="m-2 fs-1 centrarTexto tituloRojo sombraBlanca textoBold"> Diseño en contanstante evolución.</h2>
-        <p class="m-2 fs-3 align-text-center textoSeparadorBg2 text-light sombraNegra">Utilizando tecnologia de última
-          generación, buscamos que nuestros clientes tengan una experiencia inigualable, desde la idea, hasta el
-          servicio post-venta.</p>
-
-
-      </div>
 
     </section>
+
 
 
 
@@ -412,7 +457,16 @@
       scale: 1.4
     });
   </script>
+  <script>
+    const image2 = document.getElementsByClassName('paralaxImg2');
+    new simpleParallax(image2, {
+      orientation: 'left',
+      delay: .9,
+      transition: 'cubic-bezier(0,0,0,1)',
+      scale: 1.9
 
+    });
+  </script>
   <!-- Icono animado -->
   <script src="https://cdn.lordicon.com/qjzruarw.js"></script>
 
