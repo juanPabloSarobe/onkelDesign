@@ -17,10 +17,12 @@
   text-decoration: none; }
   * body {
     min-height: 100vh;
-    background-color: #f1f1f1;
+    background-color: white;
     font-family: "biennale", sans-serif; }
     * body a {
       text-decoration: none; }
+    * body .bgGris {
+      background-color: #e6e6e6; }
 
 .letraE {
   display: inline-block;
@@ -31,9 +33,6 @@
 
 .tamanioSeccion {
   min-height: 100vh; }
-
-.tamanioSeccionBg1 {
-  min-height: 50vh; }
 
 .tituloRojo {
   color: #f02411; }
@@ -46,6 +45,9 @@
 
 .centrarTexto {
   text-align: center; }
+
+.textoBold {
+  font-family: "biennaleBold"; }
 
 .fixed-top {
   position: fixed;
@@ -217,10 +219,14 @@
     color: black;
     text-shadow: 1px 1px 2px #fcfbfb, 0 0 1em #ffffff, 0 0 0.2em #ffffff; }
 
+.tamanioSeccionBg1 {
+  min-height: 50vh; }
+
 .separadorBg1 {
+  background-color: #e6e6e6;
   width: 100%;
   height: 250px;
-  margin: 50px auto; }
+  margin: 0px auto; }
   .separadorBg1 .separadorBg1Img {
     background: url("../img/interior-house-kitchen.webp") no-repeat center;
     background-size: cover;
@@ -232,14 +238,14 @@
 .separadorBg2 {
   width: 100%;
   height: 500px;
-  margin: 50px auto; }
+  margin: 0px auto; }
   .separadorBg2 .separadorBg2Img {
     background: url("") no-repeat center;
     background-size: cover;
     background-position: bottom; }
   .separadorBg2 .separadorBg2Fondo .textoSeparadorBg2 {
     text-align: center;
-    font-family: "biennaleBold"; }
+    font-family: "biennale"; }
 
 .seccionNuestroTrabajo {
   height: 80vh; }

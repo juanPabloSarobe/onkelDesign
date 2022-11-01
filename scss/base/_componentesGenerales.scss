@@ -22,11 +22,14 @@
 
     body {
         min-height: 100vh;
-        background-color: #f1f1f1;
+        background-color: $bgColorLigth;
         font-family: "biennale", sans-serif;
       a{
         text-decoration: none;
     }  
+    .bgGris{
+        background-color: $ligthColor;
+    }
     }
     
 
@@ -34,6 +37,7 @@
 
 
 }
+
 
 .letraE {
     display: inline-block;
@@ -48,9 +52,7 @@
     min-height: 100vh;
 }
 
-.tamanioSeccionBg1{
-    min-height: 50vh;
-}
+
 
 .tituloRojo{
     color: $secondarycolor;
@@ -64,4 +66,7 @@
 
 .centrarTexto{
     text-align: center;
+}
+.textoBold{
+    font-family: "biennaleBold";
 }
