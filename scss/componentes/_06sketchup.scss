@@ -1,6 +1,10 @@
 
 .letraEAjuste2{
-    transform: rotate(-12deg) translateX(-3px)
+    transform: rotate(-12deg) translateX(-3px);
+
+    @media only screen and (max-width: 992px) {
+        transform: rotate(-12deg) translateX(-2px);
+    }
 }
 
 

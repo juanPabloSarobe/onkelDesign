@@ -255,6 +255,9 @@
 
 .letraEAjuste2 {
   transform: rotate(-12deg) translateX(-3px); }
+  @media only screen and (max-width: 992px) {
+    .letraEAjuste2 {
+      transform: rotate(-12deg) translateX(-2px); } }
 
 .colorIconos {
   color: #cc2a49; }
