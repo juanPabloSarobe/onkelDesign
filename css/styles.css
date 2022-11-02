@@ -37,6 +37,9 @@
 .tituloRojo {
   color: #f02411; }
 
+.tituloRojoAlt {
+  color: #cc2a49; }
+
 .sombraBlanca {
   text-shadow: 1px 1px 2px #fcfbfb, 0 0 1em #ffffff, 0 0 0.2em #ffffff; }
 
@@ -250,12 +253,18 @@
 .seccionNuestroTrabajo {
   height: 80vh; }
 
+.letraEAjuste2 {
+  transform: rotate(-12deg) translateX(-3px); }
+
+.colorIconos {
+  color: #cc2a49; }
+
 .imagenFondo {
   size-adjust: inherit; }
 
 .imagenCentral {
   height: 600px;
-  /* background: url('../img/capturaPantallaApp.png'); */
+  width: 300px;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat; }
@@ -273,3 +282,25 @@
   width: 234px;
   background-color: white;
   transform: translate(-48.7%, -52%); }
+
+.grilla > div > div > div > i {
+  transition: all 0.4s ease-out; }
+
+.grilla > div > div > div:hover i {
+  transition: all 0.4s ease-in;
+  transform: translateY(-35%) scale(120%); }
+
+.floatWapp {
+  position: fixed;
+  z-index: 4;
+  right: 50px;
+  bottom: 50px;
+  width: 40px;
+  height: 40px; }
+  .floatWapp img {
+    width: 80px;
+    height: 80px; }
+    @media only screen and (max-width: 992px) {
+      .floatWapp img {
+        width: 70px;
+        height: 70px; } }
