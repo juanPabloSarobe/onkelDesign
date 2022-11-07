@@ -1,0 +1,127 @@
+.contactos {
+    background-color: #424243;
+    display: flex;
+    justify-content: space-around;
+   
+
+    @media only screen and (min-width: $smartphones) and (max-width: $tablet) {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    @media only screen and (max-width: $smartphones) {
+        flex-direction: column;
+        justify-content: space-around;
+        overflow: hidden;
+    }
+
+    .seccionContacto{
+        width: 45%;
+        @media only screen and (max-width: $smartphones) {
+           width: 100%;
+        }
+    }
+
+    .contactoForm {
+        @media only screen and (max-width: $smartphones) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contactoInput {
+            width: 40%;
+            margin: 25px;
+            font-size: larger;
+            font-family: "roboto";
+            padding: 8px 16px;
+            border-radius: 10px;
+            border: none;
+
+            @media only screen and (min-width: $smartphones) and (max-width: $tablet) {
+                width: 90%;
+            }
+
+            @media only screen and (max-width: $smartphones) {
+                width: 80%;
+            }
+
+        }
+    }
+
+    .contactoMsg {
+        display: flex;
+        flex-direction: column;
+
+        @media only screen and (max-width: $smartphones) {
+            align-items: center;
+        }
+
+        & #mensaje {
+            font-size: larger;
+            font-family: "roboto";
+            padding: 8px 16px;
+            border-radius: 10px;
+            border: none;
+            width: 90%;
+            height: 100px;
+            margin: 25px;
+            resize: none;
+
+            @media only screen and (max-width: $smartphones) {
+                width: 80%;
+                margin: 15px;
+            }
+
+        }
+
+        & #buttonDiv {
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            text-decoration: none;
+
+            .btnEnviar {
+                margin: 25px;
+                padding: 10px 100px;
+                text-decoration: none;
+            }
+ 
+        }
+    }
+
+    .contactoRedes {
+        width: 45%;
+        padding: 25px;
+
+        @media only screen and (max-width: $smartphones) {
+            width: 100%;
+            overflow: hidden;
+            padding: 2px;
+        }
+
+        & ul {
+            @media only screen and (max-width: $smartphones) {
+                margin: 5px;
+            }
+        }
+
+        & ul li {
+            display: flex;
+            justify-content: flex-start;
+            color: white;
+            margin: 25px;
+            align-items: center;
+
+            & i {
+                margin-right: 15px;
+            }
+
+            & p {
+                @media only screen and (max-width: $smartphones) {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
