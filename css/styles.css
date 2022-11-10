@@ -122,36 +122,23 @@
     .wrapper .recuadroCentral .subTitulo {
       font-family: "biennaleBold";
       text-shadow: 1px 1px 2px #fcfbfb, 0 0 1em #ffffff, 0 0 0.2em #ffffff; }
-    .wrapper .recuadroCentral .botonTransp {
-      transition: 0.3s ease-in;
-      font-family: "biennaleBold";
-      border: 2px solid #333333;
-      border-radius: 0px;
-      color: #333333;
-      text-shadow: 1px 1px 2px #fcfbfb, 0 0 1em #ffffff, 0 0 0.2em #ffffff; }
-      .wrapper .recuadroCentral .botonTransp:hover {
-        font-family: "biennale";
-        transition: 0.3s ease-in;
-        border-radius: 0px;
-        color: white;
-        text-shadow: none;
-        background-color: #333333; }
-    .wrapper .recuadroCentral .botonRojo {
-      transition: 0.3s ease-in;
-      font-family: "biennale";
-      border: 2px solid #cc2a49;
-      border-radius: 0px;
-      color: #e6e6e6;
-      background-color: #cc2a49; }
-      .wrapper .recuadroCentral .botonRojo:hover {
-        transition: 0.3s ease-in;
-        border-radius: 0px;
-        color: #cc2a49;
-        text-shadow: none;
-        background-color: #333333; }
   @media only screen and (max-height: 480px) {
     .wrapper .mouseIcon {
       display: none; } }
+
+.contactos .contactoMsg #buttonDiv .btnEnviar {
+  transition: 0.3s ease-in;
+  font-family: "biennale";
+  border: 2px solid #cc2a49;
+  border-radius: 0px;
+  color: #e6e6e6;
+  background-color: #cc2a49; }
+  .contactos .contactoMsg #buttonDiv .btnEnviar:hover {
+    transition: 0.3s ease-in;
+    border-radius: 0px;
+    color: #cc2a49;
+    text-shadow: none;
+    background-color: #333333; }
 
 .letraEAjuste {
   transform: rotate(-12deg) translateX(-1px); }
@@ -173,7 +160,7 @@
     color: #f02411; }
   .seccionGeneral .seccionGeneral1 .seccionAmoblamientos {
     height: 400px;
-    background: url("../img/amoblamientos.jpg");
+    background: url("../img/cocinaFeliz2.jpg");
     background-size: cover;
     background-position: center;
     transition: all 0.8s ease-in-out; }
@@ -372,7 +359,8 @@
       .contactos .contactoMsg #buttonDiv .btnEnviar {
         margin: 25px;
         padding: 10px 100px;
-        text-decoration: none; }
+        text-decoration: none;
+        background-color: transparent; }
   .contactos .contactoRedes {
     width: 45%;
     padding: 25px; }
@@ -389,7 +377,7 @@
       justify-content: flex-start;
       color: white;
       margin: 25px;
-      align-items: center; }
+      align-items: baseline; }
       .contactos .contactoRedes ul li i {
         margin-right: 15px; }
       @media only screen and (max-width: 650px) {
