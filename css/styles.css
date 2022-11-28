@@ -1,14 +1,17 @@
 @font-face {
   font-family: "biennale";
-  src: url("../fonts/Biennale/BiennaleRegular.otf"); }
+  src: url("../fonts/Biennale/BiennaleRegular.otf");
+  font-display: swap; }
 
 @font-face {
   font-family: "biennaleHeavy";
-  src: url("../fonts/Biennale/BiennaleHeavy.otf"); }
+  src: url("../fonts/Biennale/BiennaleHeavy.otf");
+  font-display: swap; }
 
 @font-face {
   font-family: "biennaleBold";
-  src: url("../fonts/Biennale/BiennaleBold.otf"); }
+  src: url("../fonts/Biennale/BiennaleBold.otf");
+  font-display: swap; }
 
 * {
   margin: 0;
