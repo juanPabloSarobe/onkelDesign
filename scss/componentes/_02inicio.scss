@@ -56,7 +56,7 @@
 }
 
 
-%botonTransp {
+.botonTransp {
     transition: 0.3s ease-in;
     font-family: "biennaleBold";
     border: 2px solid $bgColorDark;
@@ -75,7 +75,7 @@
     }
 }
 
-%botonRojo {
+.botonRojo {
     transition: 0.3s ease-in;
     font-family: "biennale";
     border: 2px solid $secondaryColorAlt;

@@ -126,14 +126,29 @@
     .wrapper .mouseIcon {
       display: none; } }
 
-.contactos .contactoMsg #buttonDiv .btnEnviar {
+.botonTransp {
+  transition: 0.3s ease-in;
+  font-family: "biennaleBold";
+  border: 2px solid #333333;
+  border-radius: 0px;
+  color: #333333;
+  text-shadow: 1px 1px 2px #fcfbfb, 0 0 1em #ffffff, 0 0 0.2em #ffffff; }
+  .botonTransp:hover {
+    font-family: "biennale";
+    transition: 0.3s ease-in;
+    border-radius: 0px;
+    color: white;
+    text-shadow: none;
+    background-color: #333333; }
+
+.botonRojo, .contactos .contactoMsg #buttonDiv .btnEnviar {
   transition: 0.3s ease-in;
   font-family: "biennale";
   border: 2px solid #cc2a49;
   border-radius: 0px;
   color: #e6e6e6;
   background-color: #cc2a49; }
-  .contactos .contactoMsg #buttonDiv .btnEnviar:hover {
+  .botonRojo:hover, .contactos .contactoMsg #buttonDiv .btnEnviar:hover {
     transition: 0.3s ease-in;
     border-radius: 0px;
     color: #cc2a49;

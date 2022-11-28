@@ -86,7 +86,7 @@
                 margin: 25px;
                 padding: 10px 100px;
                 text-decoration: none;
-                @extend %botonRojo;
+                @extend .botonRojo;
                 background-color: transparent;
             }
  
